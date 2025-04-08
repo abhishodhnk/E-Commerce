@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛍️ Shopping Mini
 
-## Available Scripts
+A minimal and modern e-commerce frontend built using React, hosted on **Vercel**. This app provides a clean, user-friendly interface for users to browse categories and products via APIs.
 
-In the project directory, you can run:
+## 🚀 Live Preview
 
-### `npm start`
+🔗 [shopping.app](https://shopping-mini.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🏠 Clean and welcoming homepage
+- 📱 Responsive design for mobile & desktop
+- 🔍 Explore products by **Category**
+- 📦 View and interact with **Product Listings**
+- ⚡ Data fetched from RESTful APIs
+- 💚 Built with modern UI/UX design principles
 
-### `npm test`
+## 🧑‍💻 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: React.js, HTML5, CSS3
+- **Hosting**: Vercel
+- **API**: Integrated via Fetch/Axios from backend service (e.g., JSON Server / RapidAPI / custom backend)
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+├── public/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Home, Category, Products
+│   ├── assets/          # Images & icons
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+├── README.md
+└── vercel.json
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📡 APIs Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Product List API**: Fetches product names, images, prices, and availability
+- **Category API**: Retrieves category data for sidebar/navigation
 
-### `npm run eject`
+> You can customize this to connect with your own backend or third-party APIs like [Fake Store API](https://fakestoreapi.com/), [DummyJSON](https://dummyjson.com/), etc.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repo and install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/your-username/shopping-mini.git
+cd shopping-mini
+npm install
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🙌 Acknowledgements
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [Abhishodh N K] — MCA @ RVIT
