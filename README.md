@@ -56,6 +56,3 @@ npm install
 npm start
 ```
 
-## 🙌 Acknowledgements
-
-Made with ❤️ by [Abhishodh N K] — MCA @ RVIT
